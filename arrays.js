@@ -41,6 +41,6 @@ function destructivelyAddElementToBeginningOfArray(array, element){
   return array
 }
 function removeElementFromEndOfArray(array){
-  var endtimes = array.slice(1)
+  var endtimes = array.slice(-1)
   return endtimes
 }
