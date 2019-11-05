@@ -22,10 +22,10 @@ array.push(element)
 return array
 }
 function accessElementInArray() {
-  
+
 }
 function destructivelyRemoveElementFromBeginningOfArray(){
-  
+
 }
 function destructivelyAddElementToBeginningOfArray(array, element){
   array.unshift(element)
