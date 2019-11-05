@@ -29,7 +29,8 @@ array.shift()
 return array
 }
 function removeElementFromBeginningOfArray(array){
-
+var newSitxh = array.slice(1)
+return newSitxh
 }
 function destructivelyAddElementToBeginningOfArray(array, element){
   array.unshift(element)
