@@ -40,3 +40,6 @@ function destructivelyAddElementToBeginningOfArray(array, element){
   array.unshift(element)
   return array
 }
+function removeElementFromEndOfArray(array){
+  var endtimes = array.slice(-1)
+}
